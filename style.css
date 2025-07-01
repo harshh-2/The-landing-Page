@@ -1,6 +1,5 @@
 *{
     font-family: sans-serif;
-    font-size: 24 px;
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -75,7 +74,7 @@ height: 325px;;
     width:450px;
     align-items: center;
     text-align: center;
-    justify-content: center
+    justify-content: center;
 }
 .info{
     text-align: center;
@@ -84,24 +83,23 @@ height: 325px;;
 .boxes img{
     width: 245px;
     height: 250px;
-    border: 1px ;
     margin-top: 1px;
+    border-radius: 10px;
 }
 .boxes{
     display: flex;
     justify-content: space-evenly;
-   
-  
 }
 .box{
 margin: 30px;
 text-align: center;
 background-color:#1b263b;
-color: black;
-
-
+color: white;
 height: 400px;
 width: 250px;
+flex-wrap: wrap;
+box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+border-radius: 10px;
 }
 .quote{
     text-align: center;
@@ -111,7 +109,6 @@ width: 250px;
     justify-content: space-evenly;
     font-style: italic;
     color:black;
-  
 }
 .about{
     border: 3px solid black;
@@ -134,7 +131,5 @@ a{
 .copyright{
     text-align: center;
     background-color:black;
-}
-hr{
-    background-color: #450920;
+    padding: 10px 0;
 }
