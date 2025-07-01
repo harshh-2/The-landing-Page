@@ -1,13 +1,20 @@
 *{
     font-family: sans-serif;
-    font-size: 24;
+    font-size: 24 px;
     margin:0;
     padding:0;
     box-sizing: border-box;
+    
 }
-img{
+body {
+  background-color: #222f3d;  
+  color: white;               
+}
+.logo{
     margin-left: 6px;
     margin:10px;
+    height:auto ;
+    width:100px;
 }
 .ref{
     display: flex;
@@ -20,7 +27,6 @@ img{
   justify-content: space-between;
   border:2px solid black;
   margin:10px;
-  
 }
 .head{
     text-align: center;
@@ -37,4 +43,38 @@ img{
     color: black;
     margin-right: 2px;
     
+}
+.Bghs{
+    background-image: url("Image Resources/Damn.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width:100%;
+}
+.cen{
+align-items: center;
+justify-content: center;
+display: flex;
+background-color: rgba(34, 47, 61, 0.5); 
+width: 700px;
+height: 300px;;
+
+}
+.Bgsm{
+    background-image: url("Image Resources/waves.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    height:235px;
+    width:350px;
+    align-items: center;
+    text-align: center;
+    justify-content: center
 }
