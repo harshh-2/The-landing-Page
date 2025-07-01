@@ -78,3 +78,31 @@ height: 300px;;
     text-align: center;
     justify-content: center
 }
+.info{
+    text-align: center;
+    
+}
+.boxes img{
+    width: 245px;
+    height: 250px;
+    border: 1px ;
+}
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+margin: 30px;
+text-align: center;
+border: 2px solid black;
+height: 400px;
+width: 250px;
+}
+.quote{
+    text-align: center;
+    background-color: #37475a;
+    height: auto;
+    justify-content: space-evenly;
+    font-style: italic;
+    
+}
