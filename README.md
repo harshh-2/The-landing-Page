@@ -25,7 +25,7 @@ Visual Studio Code
 Git + GitHub
 
 🚀 Live Demo
-📍 Live Site
+[📍 Live Site](https://harshh-2.github.io/The-landing-Page/)
 
 
 📸 Credits
