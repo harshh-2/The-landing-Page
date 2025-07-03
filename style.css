@@ -22,9 +22,9 @@ body {
   display: flex;
   justify-content: space-between;
   border:2px solid black;
-  color: azure;
+  color: white;
   background-color: black;
-  margin:10px;
+  margin:15px;
 }
 .head{
     text-align: center;
